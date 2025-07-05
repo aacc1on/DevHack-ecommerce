@@ -32,7 +32,7 @@ Supports user management, product catalog, cart operations, and order processing
 
 ## 📁 Folder Structure
 
-```
+
 DevHack-ecommerce/
 ├── .env
 ├── .gitignore
@@ -64,7 +64,7 @@ DevHack-ecommerce/
 
 
 
-````
+
 
 ---
 
