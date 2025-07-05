@@ -33,32 +33,35 @@ Supports user management, product catalog, cart operations, and order processing
 ## 📁 Folder Structure
 
 ```
-devhack-ecommerce-api/
+DevHack-ecommerce/
 ├── .env
 ├── .gitignore
-├── package.json
-├── server.js
 ├── config/
 │   └── db.js
-├── models/
-│   ├── User.js
-│   ├── Product.js
-│   ├── Cart.js
-│   └── Order.js
-├── routes/
-│   ├── users.js
-│   ├── products.js
-│   ├── carts.js
-│   └── orders.js
 ├── controllers/
-│   ├── userController.js
-│   ├── productController.js
 │   ├── cartController.js
-│   └── orderController.js
+│   ├── orderController.js
+│   ├── productController.js
+│   └── userController.js
 ├── middlewares/
 │   └── errorHandler.js
+├── models/
+│   ├── Cart.js
+│   ├── Order.js
+│   ├── Product.js
+│   └── User.js
+├── package-lock.json
+├── package.json
+├── README.md
+├── routes/
+│   ├── carts.js
+│   ├── orders.js
+│   ├── products.js
+│   └── users.js
+├── server.js
 └── utils/
     └── helpers.js
+
 
 
 ````
