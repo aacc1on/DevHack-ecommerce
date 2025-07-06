@@ -12,7 +12,7 @@ app.use('/users', require('./routes/users'));
 app.use('/carts', require('./routes/carts'));
 app.use('/orders', require('./routes/orders'));
 
-// Add other routes similarly
+
 
 // app.use(errorHandler);
 
