@@ -4,10 +4,11 @@
 
 const express = require('express');
 const router = express.Router();
-const { createOrderUID, getOrdersUID, getOrderOID } = require('../controllers/orderController');
+const { createOrderUID, getOrderUID, getOrderOID } = require('../controllers/orderController');
+
 
 router.post('/:userId', createOrderUID);
-router.get('/:userId', getOrdersUID);
+router.get('/:userId', getOrderUID);
 router.get('/:orderId', getOrderOID);
 
 module.exports = router;

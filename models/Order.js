@@ -45,12 +45,7 @@ const orderSchema = new Schema({
 });
 
 
-orderSchema.pre('save', function (next) {
-  this.totalAmount = this.items.reduce((total, item) => {
-    return total + item.price * item.quantity;
-  }, 0);
-  next();
-});
+
 
 orderItemSchema.pre('save', function(next){
     this.totalAmount = calculateTotal(this.items);

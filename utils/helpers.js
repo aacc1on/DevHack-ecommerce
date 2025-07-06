@@ -1,6 +1,4 @@
- //utils/helpers.js
 exports.calculateTotal = (items) => {
-  return items.reduce((total, item) => {
-    return total + item.price * item.quantity;
-  }, 0);
+  if (!Array.isArray(items)) return 0;
+  return items.reduce((sum, item) => sum + item.price * item.quantity, 0);
 };

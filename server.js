@@ -9,8 +9,8 @@ app.use(express.json());
 
 app.use('/products', require('./routes/products'));
 app.use('/users', require('./routes/users'));
-// app.use('/carts', require('./routes/carts'));
-// app.use('/orders', require('./routes/orders'));
+app.use('/carts', require('./routes/carts'));
+app.use('/orders', require('./routes/orders'));
 
 // Add other routes similarly
 
