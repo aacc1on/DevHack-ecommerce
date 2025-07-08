@@ -1,0 +1,20 @@
+[
+  {
+    "_id": { "$oid": "66bd6f1c1a1a1a1a1a1a1a11" },
+    "name": "Alice",
+    "email": "alice@example.com",
+    "password": "hashed_password_1",
+    "address": "Yerevan, Armenia",
+    "phone": "+37491111111",
+    "createdAt": "2025-07-07T09:00:00.000Z"
+  },
+  {
+    "_id": { "$oid": "66bd6f1c1a1a1a1a1a1a1a12" },
+    "name": "Bob",
+    "email": "bob@example.com",
+    "password": "hashed_password_2",
+    "address": "Gyumri, Armenia",
+    "phone": "+37492222222",
+    "createdAt": "2025-07-07T09:10:00.000Z"
+  }
+]

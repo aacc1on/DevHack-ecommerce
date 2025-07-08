@@ -1,7 +1,7 @@
 // testClient.js
 const axios = require('axios');
 
-const BASE_URL = 'http://localhost:5000'; // փոխիր ըստ քո սերվերի
+const BASE_URL = '  '; // փոխիր ըստ քո սերվերի
 
 const testApi = async () => {
   try {

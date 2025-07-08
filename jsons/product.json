@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Wireless Mouse",
+    "description": "Ergonomic wireless mouse with USB receiver",
+    "price": 19.99,
+    "category": "Electronics",
+    "stock": 150,
+    "createdAt": "2025-07-07T10:00:00.000Z"
+  },
+  {
+    "name": "Mechanical Keyboard",
+    "description": "RGB backlit mechanical keyboard",
+    "price": 59.99,
+    "category": "Electronics",
+    "stock": 80,
+    "createdAt": "2025-07-07T10:05:00.000Z"
+  },
+  {
+    "name": "Water Bottle",
+    "description": "1L stainless steel reusable bottle",
+    "price": 14.99,
+    "category": "Home & Kitchen",
+    "stock": 200,
+    "createdAt": "2025-07-07T10:10:00.000Z"
+  },
+  {
+    "name": "Notebook",
+    "description": "Hardcover lined notebook, 200 pages",
+    "price": 7.49,
+    "category": "Stationery",
+    "stock": 500,
+    "createdAt": "2025-07-07T10:15:00.000Z"
+  },
+  {
+    "name": "Bluetooth Speaker",
+    "description": "Portable waterproof speaker with deep bass",
+    "price": 39.99,
+    "category": "Electronics",
+    "stock": 120,
+    "createdAt": "2025-07-07T10:20:00.000Z"
+  }
+]

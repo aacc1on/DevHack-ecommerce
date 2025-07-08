@@ -1,0 +1,24 @@
+[
+  {
+    "userId": { "$oid": "66bd6f1c1a1a1a1a1a1a1a11" },
+    "items": [
+      {
+        "productId": { "$oid": "66bd70f81a2b2b2b2b2b2b21" },
+        "quantity": 2
+      },
+      {
+        "productId": { "$oid": "66bd70f81a2b2b2b2b2b2b22" },
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "userId": { "$oid": "66bd6f1c1a1a1a1a1a1a1a12" },
+    "items": [
+      {
+        "productId": { "$oid": "66bd70f81a2b2b2b2b2b2b23" },
+        "quantity": 3
+      }
+    ]
+  }
+]
